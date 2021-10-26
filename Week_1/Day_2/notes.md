@@ -1,5 +1,20 @@
 # Solving Problems Step-by-Step
 
+## Summary 
+
+We used the sum demo to demonstrate the incremental development approach. The step-by-step process that breaks down as follow:
+
+* State the hypothesis
+* Verify the hypothesis
+changes
+* Rinse and repeat
+
+For our sum problem, we broke down our problem into several steps without thinking about syntax. We used consol.log efficiently to validate our assumptions and see what is really happening.
+
+Once our solution was obtained, we did refactor our code to make it more reusable and more readable.
+
+### Example used for demonstration 
+
 ``` javascript
 // - Write a node program that takes in an unlimited number of command line arguments, goes through each and prints out the sum of them. If any argument is not a whole number, skip it. Do support negative numbers though. If any argument is not a number, output an error message. We need at least 2 arguments.
 
